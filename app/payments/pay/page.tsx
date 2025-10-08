@@ -361,6 +361,7 @@ export default function PayPage() {
                           })
                           .join("")
                         w.document.write(`
+                          <!DOCTYPE html>
                           <html>
                             <head><title>Payment Submission ${p.id}</title></head>
                             <body style="font-family:sans-serif;">

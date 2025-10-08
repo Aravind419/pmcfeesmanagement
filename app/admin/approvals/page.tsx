@@ -126,6 +126,7 @@ export default function ApprovalsPage() {
                                 })
                                 .join("")
                               w.document.write(`
+                                <!DOCTYPE html>
                                 <html>
                                   <head><title>Payment ${p.id}</title></head>
                                   <body style="font-family:sans-serif;">
